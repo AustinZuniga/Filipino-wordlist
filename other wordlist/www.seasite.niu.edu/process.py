@@ -2,8 +2,8 @@
 import re
 
 
-file = open("words.txt", "r")
-finish = open("result.txt","w")
+file = open("not-cleaned-data.txt", "r")
+finish = open("www.seasite.niu.edu - wordlist.txt","w")
 contents = file.read()
 contents = contents.split('\n')
 
